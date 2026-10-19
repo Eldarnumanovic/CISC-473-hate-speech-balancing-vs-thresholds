@@ -1,0 +1,11 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local data and model outputs
+.cache/
+data/
+checkpoints/
