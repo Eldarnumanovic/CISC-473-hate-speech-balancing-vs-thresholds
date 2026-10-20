@@ -9,3 +9,6 @@ __pycache__/
 .cache/
 data/
 checkpoints/
+
+# Temporary pipeline-check results
+results/smoke_*/
