@@ -1,0 +1,29 @@
+{
+  "model": "GroNLP/hateBERT",
+  "strategy": "weighted",
+  "seed": 999,
+  "epochs": 3,
+  "batch_size": 1,
+  "gradient_accumulation": 16,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "optimizer": "AdamW",
+  "schedule": "constant",
+  "threshold": 0.5,
+  "smoke_test": false,
+  "device": "mps",
+  "class_counts": [
+    5217,
+    3783
+  ],
+  "class_weights": [
+    0.8625646923519263,
+    1.189532117367169
+  ],
+  "weight_formula": "N / (2 * class_count)",
+  "weight_source": "full training split only",
+  "loss_reduction": "weighted per-example losses averaged by example count",
+  "train_examples": 9000,
+  "validation_examples": 1000
+}
