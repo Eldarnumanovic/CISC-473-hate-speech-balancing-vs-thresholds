@@ -1,0 +1,29 @@
+{
+  "model": "GroNLP/hateBERT",
+  "strategy": "oversampling",
+  "seed": 42,
+  "epochs": 3,
+  "batch_size": 1,
+  "gradient_accumulation": 16,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "optimizer": "AdamW",
+  "schedule": "constant",
+  "threshold": 0.5,
+  "smoke_test": false,
+  "device": "mps",
+  "class_counts": [
+    5217,
+    3783
+  ],
+  "sampling": "inverse-frequency per-example weights; replacement=True",
+  "draws_per_epoch": 9000,
+  "expected_class_proportions": [
+    0.5,
+    0.5
+  ],
+  "loss": "unweighted cross-entropy",
+  "train_examples": 9000,
+  "validation_examples": 1000
+}
