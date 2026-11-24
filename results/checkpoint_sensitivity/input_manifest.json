@@ -1,0 +1,506 @@
+[
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/threshold_summary.json",
+    "sha256": "205fd71d5687f4cdf5212fefca1083fc8e24e0f3874457efdfec8f1e6c696eb7"
+  },
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/config.json",
+    "sha256": "40683b8c3840181faf118c0572983fcf2a5a52128daeac1a9a7ab72163ed99fc"
+  },
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/metrics.json",
+    "sha256": "60428519882982db45f91138c5896502f099ff3b076f2c1344eb508b1fb531df"
+  },
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/best_epoch.json",
+    "sha256": "d9474a7af22f8ef9a4359fe7761510933dafe7235b73a109698c54a512f387a6"
+  },
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/validation_epoch1.csv",
+    "sha256": "7941192e0c2f8b344884c9f87f28942e925357979da1ebbaf89f0269774fea3f"
+  },
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/validation_epoch2.csv",
+    "sha256": "523f0e9cb0ad983fc5da3d06246e4031bf9d6860d2b5c88085e0f9077fbc6650"
+  },
+  {
+    "path": "bert_oversampling_seed123_20261020_192429/validation_epoch3.csv",
+    "sha256": "1f71c7d7f752776fa6060e4b4c53402058f478f2f31497faf0bb6a439c1c0602"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/threshold_summary.json",
+    "sha256": "d9d82e6e3639ac1d5bf80fe7df1064a777c8dec02e43bb33c10537cdc123d265"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/config.json",
+    "sha256": "f58a7b14de365b5db6751b606b1fd4520a44cf2e74e09a65aa5373a9de3f5dff"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/metrics.json",
+    "sha256": "ad998d699b5e48dc18a978db50599c0c5b28af25cb556729792fae57ade40ff0"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/best_epoch.json",
+    "sha256": "a20f9c03b302ca2246095db63329555e09d2c85e31b83322922b57320ef3d081"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/validation_epoch1.csv",
+    "sha256": "d638eaff7c12b0b618f6c11c515ea7c10aea8c67166c0d6c1542acf911e85595"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/validation_epoch2.csv",
+    "sha256": "acdc9790954c7a622a0ceca1076de4dcc01372744efba5c4940cfda396844dbe"
+  },
+  {
+    "path": "bert_oversampling_seed42_20261020_180042/validation_epoch3.csv",
+    "sha256": "a83809da12929e4875051a9e1dda67e23f991708051b3e22e8b1b244368beb55"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/threshold_summary.json",
+    "sha256": "bbc01732638742544faf57d380416f74248f5f2f5ee3a9f036cc845940fed4bc"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/config.json",
+    "sha256": "0ccc8ce8b6a950d0823a0432fab1ec5042929b0fa69bb484c72c0adba657f094"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/metrics.json",
+    "sha256": "adf70ce13c8051b80eb7fe72d680c6effecf65a4a0696935db78727c75cf2592"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/best_epoch.json",
+    "sha256": "12175a2735e8bccd66eab7621423552f9c7e88e4e3be59d352e6fa1ef90dfbc2"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/validation_epoch1.csv",
+    "sha256": "a7041c9f1a475339307e4c4e257d1b7123d09efd8c097786b336d9d7eb780c0e"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/validation_epoch2.csv",
+    "sha256": "9ca27f4c2a20cb0d36f9d6f503ac239e2c1ca180370c203a13723561f7767cb8"
+  },
+  {
+    "path": "bert_oversampling_seed999_20261020_203100/validation_epoch3.csv",
+    "sha256": "4f5597898636d763a51e8b70f39180e43b0fd1b429aea2f3c8298c3577087a96"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/threshold_summary.json",
+    "sha256": "5123a3c9ac4cbc80b1cb9d9f5d4305b47f94a67ecf70c8a8779c4cdbaa2a71ff"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/config.json",
+    "sha256": "e575d582d874d5e601defd1e708d7a2875a15f59f263ec60f6efdc1ce852a07b"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/metrics.json",
+    "sha256": "ed06956e778b57842b95738b851161c1426ef207035277ca4f3c53126ac30e6f"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/best_epoch.json",
+    "sha256": "61195e09e4f94fed1c63e20779f01cf7445bd1e333571b123ad1a2b8e8e5fbf6"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/validation_epoch1.csv",
+    "sha256": "e0844b81b2bec292c73e221ca5963df93da16fd60e29022965c880ef2c60dad8"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/validation_epoch2.csv",
+    "sha256": "5e104c0513ce8f310d129915be44e43b5e5f95b21628b320b9eddd3fe276ea78"
+  },
+  {
+    "path": "bert_unweighted_seed123_20261019_175058/validation_epoch3.csv",
+    "sha256": "b58b78931547e90e015fae5f7cfb8c4b69e4e6ab7932d3f869ca10d1451125b8"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/threshold_summary.json",
+    "sha256": "53ad11c3d66226d72198170142893815c3165f157b34dbad376dcec047ce3bb3"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/config.json",
+    "sha256": "f743bcf597fe7a062f3a5160d87ba19e0b7bc320769e212d6bb60e542da1466b"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/metrics.json",
+    "sha256": "269ec7eb41f3ca027c227020b442b0206396baa0cbec182ff2a6936838cc154c"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/best_epoch.json",
+    "sha256": "dc76d5e82671bd0c91a00813b6430228241100a72b2d919a58c0e7c678003640"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/validation_epoch1.csv",
+    "sha256": "d5449ff551f794e0b2604f7f63641dc3b328aae1bcc22f6f34643325fa4eab78"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/validation_epoch2.csv",
+    "sha256": "791cf7a9d0b3604f35e25313ebc8c370f00c3bcd0eb5c9b4d8bca7263fa2f082"
+  },
+  {
+    "path": "bert_unweighted_seed42_20261019_154628/validation_epoch3.csv",
+    "sha256": "0084556e1494e78952e5c1948003e657248767d840c60a22ef34237f816c0425"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/threshold_summary.json",
+    "sha256": "c49af762d288c14f3d9e95446d460f7bb4e57f35835fac289f7f812eefbafa8f"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/config.json",
+    "sha256": "c0e4eb8e809765555672e9b1b589fc6822af0246c8517cc39cac17e96d6e9ce0"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/metrics.json",
+    "sha256": "8a24aed6a7f482516c8154a07c9fe033273717ca89686c7116a07020bbf1aaeb"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/best_epoch.json",
+    "sha256": "fc9427b471cbcad263a0fdc53192f4a9b01b997906c4db7df77e340c9e323b40"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/validation_epoch1.csv",
+    "sha256": "e0f65d725eba13d715a3335024e8e8911c992e6bdb2dc5c0c8cadd17055312a1"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/validation_epoch2.csv",
+    "sha256": "222c0be8155e92f56b79330048973ec8e616783706894129c7465bbe4ded3d1f"
+  },
+  {
+    "path": "bert_unweighted_seed999_20261019_200840/validation_epoch3.csv",
+    "sha256": "8603378af0210a5ab797393a0d56ebdfc197e32dc9acd2e93baeef3b318e168e"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/threshold_summary.json",
+    "sha256": "99fee58a1d7725edc58dd784e121a67622013e375cf62f409a7a9b830f6e2b0e"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/config.json",
+    "sha256": "f3cf1fe3fd00e1e30535f3ecb504913d5fdfe6c7c411e9d024241e2bafbc1270"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/metrics.json",
+    "sha256": "d1ff87899cf9815d66d75cc6a0680af82ec9e975a8c4d4ea13b6fc706a9c6c2b"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/best_epoch.json",
+    "sha256": "5d2ac140129b0f70d4a9abb7d7a068ce49e135451383f2b35205a96a886f9e27"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/validation_epoch1.csv",
+    "sha256": "e52059d884d5e78b6a33b6b13bc4b53f9ed292935ecb531f5bb0a32a00b08eba"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/validation_epoch2.csv",
+    "sha256": "635439622457483d16a25bed8cad43e9d436cf0507812804e8029d17e9944554"
+  },
+  {
+    "path": "bert_weighted_seed123_20261020_155842/validation_epoch3.csv",
+    "sha256": "d5efa7da0201aa8a954770f66f90e805bb4fe54de0b26b213147adbce7ea755a"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/threshold_summary.json",
+    "sha256": "84ce6ee4aa8fcbbd3fce0951df2ef3b004621137a2d9b5909c018c15f5800490"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/config.json",
+    "sha256": "323e42dac96916ecb7319640e2c67762d0d92eada728d15881d0958b227b9e86"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/metrics.json",
+    "sha256": "4849a27e0892013677e1b509b4a6bcef2edabcb70bf6488c4725125978d09b50"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/best_epoch.json",
+    "sha256": "b56bff5e3a7d323e261dfe1483e8078667db7167f1e4586bbe1723423bf7cbb3"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/validation_epoch1.csv",
+    "sha256": "0e062bdefba61e516ae1ef4b8aa3ae1678811a812105819459f0f2c2c79ca21f"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/validation_epoch2.csv",
+    "sha256": "c885c1c0d2f88645a68da35dd4cc69327fdfd9b70a07b1b5d795a5f27e8e9d7c"
+  },
+  {
+    "path": "bert_weighted_seed42_20261020_150007/validation_epoch3.csv",
+    "sha256": "4d177c90545ff9233e4c2cff1b0a9519c5b551381fee0d2fa59a220e45f0e15b"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/threshold_summary.json",
+    "sha256": "1eca3ff5e775d7dc3a0a089f6893560526aaf94c88dc213e48de9449e65177c1"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/config.json",
+    "sha256": "ca01e9362eb5c2f87329f86073bf69d72fb7106566c83ba3d1415163805080e2"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/metrics.json",
+    "sha256": "12a31845bbf4e2a9d6f36763783effe118d5214e9a4ab5b61c4926ba6c76a844"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/best_epoch.json",
+    "sha256": "9d51761ce0625415c474f7e1bd44cbde487c76ba2f9540cec35d5b5c0e32879f"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/validation_epoch1.csv",
+    "sha256": "848fbb5fc8317ac74a3e2e712223540bf56d788b3b66c615a74924107b6302da"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/validation_epoch2.csv",
+    "sha256": "adaf144516960524be2a454bb8a572ce5c82c1f6c2bc2275d3c435f1901f1a69"
+  },
+  {
+    "path": "bert_weighted_seed999_20261020_170024/validation_epoch3.csv",
+    "sha256": "c511682b60a32fe523ca1fb28b31638cfe7aad2f3b0631e304c0242c37e9b7f0"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/threshold_summary.json",
+    "sha256": "529954e01915b0393dec551106fd683e3eb796e8195ed5813fe5c009c25c4055"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/config.json",
+    "sha256": "9b7d6dd615c10c9dabd38393f7586740db1207d5a7c41f060743d0268395d466"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/metrics.json",
+    "sha256": "71d9bf64325279998bc3b090e42dc9425b26a9c641a308d8c7ba1097e6858675"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/best_epoch.json",
+    "sha256": "2fa22af6d3d389151a254277cac585a71312746fce9ade51f6ffae68d604cce4"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/validation_epoch1.csv",
+    "sha256": "846a52e8dcd3b4e3221ca206822fd4d641e1b5a6cf5672522d7f12b3148f5ccd"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/validation_epoch2.csv",
+    "sha256": "4d7e3209f1d0a48ecb63ce6cd73f334e37670f1880f6afdee0e79e8e4d4e67d0"
+  },
+  {
+    "path": "hatebert_oversampling_seed123_20261022_084435/validation_epoch3.csv",
+    "sha256": "1f7758134943eb7ffd50bc1f12e1ea92923624ba68dc847c9a0b3f7eafc5f6d2"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/threshold_summary.json",
+    "sha256": "bc975a555c9cd248a9c41aa5b12e2b510c73ef34f7c70c73e23280a24a746bf9"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/config.json",
+    "sha256": "0cb3430686493aa05413ee9d744a1a5d6dde26cfadf5db699e7eb50d8eaf7f28"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/metrics.json",
+    "sha256": "80eea071b4e7aa9df0585142876f4d794d8437b67cf2fe74fc38e44b64f8803d"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/best_epoch.json",
+    "sha256": "9ace5a5316fe0990a524b107e3881ecb3851806fbe63bcef8964d0c961be6794"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/validation_epoch1.csv",
+    "sha256": "952755edad25b551a085826d29cb80e6688078085371ca7bf9ac0cb334f14f53"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/validation_epoch2.csv",
+    "sha256": "faf1783c8b2f914f0906b4df36d9eedc75e5d9e5381454e087dac42bcfde8c6a"
+  },
+  {
+    "path": "hatebert_oversampling_seed42_20261021_233446/validation_epoch3.csv",
+    "sha256": "39d2460669726cfa1cafefe6a19ffb7ad127c1e407e59a030a6fc06bcb7e97e8"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/threshold_summary.json",
+    "sha256": "d14366a92748efcf4f098274338f53615a243fee68ed90782270d547a849651d"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/config.json",
+    "sha256": "aa9558e10f049b6a4c46bce2316cc612bf29c120e47da483c709057ea3587312"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/metrics.json",
+    "sha256": "85949d370c5a32d209d702ba6b35f9e071bc4a19e58b70e18346e2b8a9a21d82"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/best_epoch.json",
+    "sha256": "4f3ea4f620f97c9916d189482b49bca64c6aa074a47e402c6b2fa57e6ac81350"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/validation_epoch1.csv",
+    "sha256": "eac78bb911767564e9ec04401f5b3a294c5593934114b0a10e1166f084210f91"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/validation_epoch2.csv",
+    "sha256": "a100a6b4ca33f6ba9b561af53bcde65323137b09a81597c46182e22cc9616aa3"
+  },
+  {
+    "path": "hatebert_oversampling_seed999_20261022_150421/validation_epoch3.csv",
+    "sha256": "716cbe11e908bcbcadf853e834ff5e38b90f23b93c1b2f33135a23ff80b1d6b6"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/threshold_summary.json",
+    "sha256": "07f5645e457d39ba4dd9d2955734e8eb2fa21f5c4e668036d76d0d48d3c78ee7"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/config.json",
+    "sha256": "d2f62219cc1bd35eaab9631c47e44993154a2a0bd1f085182e4e96fa885ed7c7"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/metrics.json",
+    "sha256": "330e839d8186279c56982cbd22ec35094c5ead22e921d88a4d4143ab5cc1fb4f"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/best_epoch.json",
+    "sha256": "f9e6ac3cd574581beb931d0e58abd6a27fab2d46f1ff2a7f5ea6c3cdc3311333"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/validation_epoch1.csv",
+    "sha256": "44485baec828748231717da90503df163f93e6c3315e45671978bc8c879d1a30"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/validation_epoch2.csv",
+    "sha256": "3bbafb450c7ff3372de370ba2fffbbb1b880012a00c12fd8b66a599cfa22d808"
+  },
+  {
+    "path": "hatebert_unweighted_seed123_20261021_182657/validation_epoch3.csv",
+    "sha256": "427a04e53ad43b24a722de22331f468d4b6681e6ce6c7cc2ab531c00fb10b30b"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/threshold_summary.json",
+    "sha256": "4057a1b109c6ec125c002b543cea7402fe2a1b29a9f2cbcd24c40dfc81671998"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/config.json",
+    "sha256": "f7d4413e8040af42e0495295f39ed46a96c4d86cb32fe961b8cf591422387a00"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/metrics.json",
+    "sha256": "6199e195a23982efe84a48f3fcc5350941c1f61a78921c663fe5d5d294a4f663"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/best_epoch.json",
+    "sha256": "50121238e7f761cd0fa7c4ffdc0dc851063d6429ea1c6de18aad713c3d4e8232"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/validation_epoch1.csv",
+    "sha256": "a4a283612b75d353582a6c23bc32f04d9d293b7e77b98cd7f5f3071eeae1682d"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/validation_epoch2.csv",
+    "sha256": "c267c41d368ae6ac7d69b72f40fc1c9716f38423ab3e6b7860020c770a42795f"
+  },
+  {
+    "path": "hatebert_unweighted_seed42_20261021_144310/validation_epoch3.csv",
+    "sha256": "53b96aa19cb3ff83fd31ef6715d180822a2c8c1cc8622a1eb6c5f65c1b92df24"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/threshold_summary.json",
+    "sha256": "50b7439b7e012491a0051ac919302559b7cc24750d6dd12548550ef24dd82e92"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/config.json",
+    "sha256": "7bea47f93914b34b9f89f53de0361b35aea0cd5695bc5390f93493e268fb7a89"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/metrics.json",
+    "sha256": "5cc5606baba6dde9c5fbec95d8ff707f41198c8d021ce5890b079c597f27193a"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/best_epoch.json",
+    "sha256": "11600c624c779f3a39a6b4d800fc080721965e246b70d8f5118a59172c67afe2"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/validation_epoch1.csv",
+    "sha256": "1cfa2f0c9d25e8eaaae951a77db2596c30da6d21a43d30bfdb0449e806bf8797"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/validation_epoch2.csv",
+    "sha256": "40f251cc2af5300dd04f7b1704acbe9ab33f02184a8d51a1611ce83c44d29ae5"
+  },
+  {
+    "path": "hatebert_unweighted_seed999_20261021_195439/validation_epoch3.csv",
+    "sha256": "a77d4a2a21f34b9ccdc7c5962565d096766f460bd78644aba3777a4d527b70f5"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/threshold_summary.json",
+    "sha256": "6f55dea81fdd613f7c4be4233b55221d50f246e09896f9cb2f8e8b93f0fdab5a"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/config.json",
+    "sha256": "b227c340f05751e42213d57deff00a3e4190ec47375a44a11c7a0d04c8bd608c"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/metrics.json",
+    "sha256": "9683c6c86464e76f13157d3c05c8382ec9afc4ecffcc12d969959d846f28c258"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/best_epoch.json",
+    "sha256": "38854169698ab25b52ca7e54768499a380c63bf14e6532c11baaff1d92d61dc8"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/validation_epoch1.csv",
+    "sha256": "e5de4fd0c8330b31f58fa51dccdc6f28597bd234c4dd6eaa5b1739cceb342dc2"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/validation_epoch2.csv",
+    "sha256": "0b4faf2c4e6ad299704ce6278129f12065ec038f98e8913d6ad7346b56624271"
+  },
+  {
+    "path": "hatebert_weighted_seed123_20261021_214429/validation_epoch3.csv",
+    "sha256": "0dcd5bec280f29811297faebf9b980ce75f872f8d4fdf38a6f736aa0e0688756"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/threshold_summary.json",
+    "sha256": "7b5189956ea2e1f987db992c5673be738d3f1e60c8d2af6e3c761c3836273a30"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/config.json",
+    "sha256": "1f8aab7bcff24fff8a45e5aee8054871046af0df0c681ea1d3e581f061f37306"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/metrics.json",
+    "sha256": "b883f045a1bf88d5d339d94dcf15250b3ae641808bb3301d01ccd20eb80fb6fb"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/best_epoch.json",
+    "sha256": "d10410d62e80037dcb9a3f0d5e767fe5eb5a37fe0c047fc51dc5dcf1e9c101cb"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/validation_epoch1.csv",
+    "sha256": "566734bea625437ab327c38626c4f0397861cf4ebc7a2dc17a4bb751f36ca9c2"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/validation_epoch2.csv",
+    "sha256": "df7725dd2d9a4e0fc98c78dc85dd9f1915c8791aeecf3656fc87f8bec5aa8424"
+  },
+  {
+    "path": "hatebert_weighted_seed42_20261021_205007/validation_epoch3.csv",
+    "sha256": "e9c21f23ab9167d524fdf6b1e4ee218a8b102d791b48b6603dbbb97d0f4b37fd"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/threshold_summary.json",
+    "sha256": "28ef14762284a80d084ff2ef9faf3d19cb0c96fb3d5759bffa3fb0170825e5e8"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/config.json",
+    "sha256": "e005aea6f1b8b290263310f098fb84d7cf72c149857b4d2e9a260d63f1aef985"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/metrics.json",
+    "sha256": "3925ec89078f94f3b579eb7d1b187430b36bf4692e505962f772fc005765c3d8"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/best_epoch.json",
+    "sha256": "f6e480a1115ab7f24efad32ca0d490fd786f64ec4152aa4453b68cf97cd471ec"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/validation_epoch1.csv",
+    "sha256": "860aa357e5e8b2a56295e840e13ad5ad6ac1edb04aa61d7f62008842687666f1"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/validation_epoch2.csv",
+    "sha256": "42a5232bbe9ea9c432995e8b5b48feab6c9d596ea448e4f4a7b37b0df9d6e9af"
+  },
+  {
+    "path": "hatebert_weighted_seed999_20261021_223756/validation_epoch3.csv",
+    "sha256": "9d75ab1461d4f71782343f85ef2ff85af2ed7a7cde07cb18bab9e98ceb8694b3"
+  }
+]
