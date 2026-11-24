@@ -1,0 +1,12 @@
+VALIDATION PILOT — DRAFT PROTOCOL
+These are 20 candidate pairs, not 20 verified perturbations. No test data or model predictions were used in selection.
+
+1. Keep original text, labels and IDs unchanged. In edits.csv, replace one word occurrence with a synonym. Record the original word, replacement, and complete modified text. Preserve all other wording, punctuation and capitalization as far as possible. Avoid changing identity targets, negation, quoted status, slurs, or intensity. If a natural equivalent is unavailable, leave the edit blank and record why.
+2. Freeze the proposed edits before review. Eldar and Lucas review the same edits independently in their own review CSV, without seeing model predictions or the other reviewer's decisions. Enter yes/no/uncertain in each criterion and accept/reject/uncertain for decision. A proposer reviewing their own edit is not a blinded reviewer; record who proposed each edit in edit_notes.
+3. Preserve meaning, target, naturalness, and the supplied hate/non-hate label. Flag ambiguous original labels instead of silently relabeling them. Reject uncertain or invalid edits.
+4. After independent review, discuss disagreements and record the outcome in decisions.csv. final_decision is accept or reject. Record reasons for all rejected pairs. Accept only after both reviewers agree all criteria are satisfied.
+5. Pilot failures are informative: do not replace them silently to reach 20 accepted pairs. candidate_order.csv records the full seeded order for additional validation candidates if needed. Preserve exclusions and document any subsequent pilot round separately.
+6. Do not score edited text until reviews are complete. Use the same accepted pairs for every configuration, with existing checkpoints and thresholds fixed. Report acceptance counts by class, class-specific prediction flips, correct-to-incorrect and incorrect-to-correct transitions, and paired metric changes.
+7. This pilot may inform protocol revisions. Freeze and commit the final protocol before constructing or evaluating test perturbations. Keep these validation pairs separate from the eventual 200 test pairs.
+
+The 200-pair final target is conditional on enough valid pairs. Report exclusions and actual sample size rather than weakening validity rules to meet a quota. A synonym-editable subset may be unrepresentative of the full dataset.

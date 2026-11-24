@@ -1,0 +1,33 @@
+{
+  "dataset": "cardiffnlp/tweet_eval",
+  "configuration": "hate",
+  "split": "validation",
+  "source": "Local TweetEval-hate validation Arrow cache",
+  "selection_seed": 473,
+  "candidates_per_class": 10,
+  "selected_ids": [
+    "validation_0300",
+    "validation_0381",
+    "validation_0410",
+    "validation_0746",
+    "validation_0246",
+    "validation_0773",
+    "validation_0488",
+    "validation_0636",
+    "validation_0005",
+    "validation_0352",
+    "validation_0663",
+    "validation_0754",
+    "validation_0530",
+    "validation_0394",
+    "validation_0741",
+    "validation_0782",
+    "validation_0658",
+    "validation_0940",
+    "validation_0795",
+    "validation_0863"
+  ],
+  "validation_sha256": "a1d4cd5353842cb0b8e48edf256bad60b78910fc978bcf36ac997b6148d01594",
+  "status": "unreviewed pilot candidates",
+  "selection_uses_predictions": false
+}
