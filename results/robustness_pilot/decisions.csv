@@ -1,21 +1,21 @@
 example_id,final_decision,exclusion_reason,adjudication_notes
-validation_0300,,,
-validation_0381,,,
-validation_0410,,,
-validation_0746,,,
-validation_0246,,,
-validation_0773,,,
-validation_0488,,,
-validation_0636,,,
-validation_0005,,,
-validation_0352,,,
-validation_0663,,,
-validation_0754,,,
-validation_0530,,,
-validation_0394,,,
-validation_0741,,,
-validation_0782,,,
-validation_0658,,,
-validation_0940,,,
-validation_0795,,,
-validation_0863,,,
+validation_0300,reject,No suitable meaning-preserving synonym substitution identified.,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0381,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0410,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0746,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0246,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0773,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0488,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0636,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0005,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0352,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0663,reject,No suitable meaning-preserving synonym substitution identified.,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0754,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0530,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0394,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0741,reject,No suitable meaning-preserving synonym substitution identified.,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0782,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0658,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0940,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0795,reject,No suitable meaning-preserving synonym substitution identified.,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
+validation_0863,accept,,Joint in-person consensus review by Eldar and Lucas; no separate independent reviews recorded.
