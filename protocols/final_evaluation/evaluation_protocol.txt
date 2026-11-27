@@ -1,0 +1,33 @@
+FINAL EVALUATION PROTOCOL - VERSION 1
+
+Purpose and timing
+This protocol follows training, validation checkpoint/threshold analysis, and the 16-pair validation pilot. It is not a preregistration of those completed analyses. Commit this protocol and the generated configuration manifest before constructing the test perturbation set or inspecting test predictions. If test scores have already been inspected, document that fact rather than claiming otherwise.
+
+Primary models
+Evaluate all 18 original runs: BERT-base and HateBERT; unweighted cross-entropy, weighted cross-entropy and random oversampling; seeds 42, 123 and 999. Select checkpoints by highest validation macro-F1 at threshold 0.5, breaking exact epoch ties toward the earlier epoch. Use the existing saved best checkpoint. AP-based checkpoint selection remains a validation-only sensitivity analysis; do not generalize its findings to test performance.
+
+Thresholds and preprocessing
+For each checkpoint evaluate both 0.5 and its previously selected validation-tuned threshold. The primary balancing comparison uses tuned thresholds on both the balanced and unweighted configurations, matched by model and seed. Do not retune thresholds using original or modified test examples. Use each saved tokenizer, maximum length 128, physical inference batch size 1, model.eval(), eager attention, and MPS, as in the validated pilot. Do not clean or otherwise normalize input text manually.
+
+Data and order
+The official TweetEval-hate test split has 2,970 examples. Keep full-test evaluation separate from the paired subset evaluation. Generate a fixed random candidate order separately for each class, with Python random.Random(473), processing class 0 then class 1. Preserve test row indices and the complete candidate order. Review candidates in class-rank order until 100 accepted pairs per class are obtained or candidates are exhausted. Keep every attempted candidate and its disposition; do not select based on model scores, predictions, disagreement, or apparent attack success. If the target cannot be reached, report the actual sample size and reasons; do not weaken validity criteria or silently replace the protocol.
+
+Substitution procedure
+Change exactly one word occurrence to one synonym. Preserve all other wording, punctuation, whitespace, capitalization except as necessary within the replacement, and original spelling errors. Preserve meaning, target, tone, intensity, certainty, and the supplied class label. Do not edit identity terms, negation, slurs, hashtags, user mentions, or quoted text. Reject examples without a suitable edit or with an ambiguous original label; do not relabel them. A fixed proposal procedure may use a human or AI assistance: request one contextually equivalent replacement under these rules, recording proposer and assistance. If that proposal fails, reject the candidate rather than searching repeatedly for a model-breaking edit. No prediction-based feedback is allowed.
+
+Review
+Eldar and Lucas jointly review each proposed pair in person, without seeing model predictions. Record accept/reject and an exclusion reason when rejected. Accept only if both agree on one-word substitution, preserved meaning/label/target/tone and naturalness. Unresolved uncertainty leads to exclusion. This is consensus review, not independent annotation; do not report inter-annotator agreement. AI-generated proposals are not human-written perturbations and must be described as AI-assisted, human-verified. Freeze accepted pairs and input hashes before any test inference.
+
+Evaluation
+Score all original test posts and both versions of the same accepted pairs using every primary checkpoint. The original subset's predictions must agree with those from full-test inference. Report full-test macro-F1, hate precision, hate recall, false-positive rate, and average precision (AP). For paired subsets report original and modified metrics and modified-minus-original deltas. Do not compare a class-balanced modified subset against the full test set as if the difference measured robustness.
+
+For all pairs and separately for each true class, report sample count, prediction flips and flip rate, correct-to-correct, correct-to-incorrect, incorrect-to-correct, and incorrect-to-incorrect counts. Break rate is correct-to-incorrect divided by the originally correct count. Repair rate is incorrect-to-correct divided by the originally incorrect count. Undefined rates have a missing value, not zero. Summarize rates and performance as mean and sample SD across three seeds. Report how many seeds contribute to conditional-rate summaries if a denominator is zero. Do not treat repeated predictions of the same pairs as independent examples.
+
+Comparisons and figures
+For original and modified subsets, compare each balanced configuration with its same-model, same-seed tuned unweighted reference. Report paired strategy differences and the difference in robustness degradation between strategies, without presuming balancing helps. Show PR curves for all strategies across both models and all seeds. Keep counts and individual-seed results available alongside aggregates. Three seeds do not establish statistical significance; do not label observed mean differences as significant without a separately specified valid analysis.
+
+After test evaluation
+Do not change checkpoints, thresholds, acceptance criteria or example selection based on test results. Correct genuine implementation bugs transparently, documenting the cause and every rerun rather than concealing prior outputs. Qualitative error analysis may inspect results, but it must not feed back into this evaluation. Describe at least three observed failure categories where supported; any newly designed mitigation is future work unless separately evaluated.
+
+Limitations
+The data have moderate imbalance, and the synonym-editable, class-balanced subset is not representative of all online posts. Joint review lacks independent agreement measurements. Neutral-word substitutions may be mild; results do not establish robustness to all adversarial attacks or all linguistic changes. The 16-pair validation pilot is development evidence, not part of the held-out robustness sample.
