@@ -1,0 +1,31 @@
+{
+  "split": "validation",
+  "smoke": false,
+  "checkpoint_rule": "validation macro-F1 at 0.5",
+  "review_method": "joint in-person consensus; no independent reviewer agreement measured",
+  "accepted_ids": [
+    "validation_0381",
+    "validation_0410",
+    "validation_0746",
+    "validation_0246",
+    "validation_0773",
+    "validation_0488",
+    "validation_0636",
+    "validation_0005",
+    "validation_0352",
+    "validation_0754",
+    "validation_0530",
+    "validation_0394",
+    "validation_0782",
+    "validation_0658",
+    "validation_0940",
+    "validation_0863"
+  ],
+  "input_hashes": {
+    "edits.csv": "2ac12196a22f16261926a9e1f3c9ca5a68d5c91b7758f6f3172bc09442247a77",
+    "decisions.csv": "de7921e22ae012727b4938c7a31320a10312b5c4ff1de8087d378f206795ebc6",
+    "manifest.json": "7322bf6296a55ec0defe4361f1d26f8eb1aa94fd5e47f8a01bb4748c72dbb609"
+  },
+  "thresholds": "existing default and validation-tuned; no retuning",
+  "original_score_tolerance": 0.0001
+}
